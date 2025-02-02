@@ -74,9 +74,9 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" > ~/.npmrc
-
-      - name: Print a message
-        run: echo ~/.npmrc
+      
+      - name: Print .npmrc file
+        run: cat ~/.npmrc
         
       # Install dependencies
       - name: Install dependencies
