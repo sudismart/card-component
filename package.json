@@ -1,6 +1,6 @@
 {
   "name": "sudipta-card-component",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A reusable Card component built with React and styled-components.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
