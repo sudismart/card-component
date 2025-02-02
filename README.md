@@ -8,7 +8,7 @@ To use the `Card` component, first install the package via npm:
 
 ```bash
 # Using npm
-npm install react react-dom styled-components sudipta-card-component
+npm install react react-dom styled-components sudipta-styled-card-component
 
 ```
 
@@ -20,7 +20,7 @@ Import the `Card` component into your project and use it as needed:
 
 ```tsx
 import React from "react";
-import { Card } from "sudipta-card-component";
+import { Card } from "sudipta-styled-card-component";
 
 const App = () => {
   return (
@@ -62,7 +62,3 @@ The `Card` component supports the following props:
 - `flat`: No border or shadow.
 - `raised`: Higher shadow depth for emphasis.
 - `highlighted`: Displays a colored border with a shadow.
-
-## License
-
-
